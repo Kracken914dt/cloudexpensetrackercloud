@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import {
+  ArrowUpDown,
   LayoutDashboard,
   LogOut,
   PieChart,
@@ -34,6 +35,11 @@ const sidebarItems = [
     label: "Presupuesto",
     href: "/dashboard/budget",
     icon: PieChart,
+  },
+  {
+    label: "Importar/Exportar",
+    href: "/dashboard/data-transfer",
+    icon: ArrowUpDown,
   },
 ];
 
